@@ -389,17 +389,19 @@ footer {
     .plug-block {
         flex-direction: column;
         width: 100%;
-        min-height: 1910rem;
+        min-height: 1440rem;
         margin: auto;
     }
 
     .ag-action,
     .football-action {
         width: 828rem;
-        height: 955rem;
+        height: 720rem;
     }
 
     .football-action {
+        background: url(../img/football-mob.jpg) center no-repeat;
+        background-size: cover;
         order: -1;
     }
 
@@ -409,19 +411,21 @@ footer {
     }
 
     .action-announce {
-        top: 890rem;
+        top: 680rem;
         max-width: 748rem;
+        font-size: 9rem;
+        line-height: 10rem;
     }
 
     .ag-btn {
-        top: 212rem;
+        top: 136rem;
         right: 0;
         width: 267rem;
         height: 67rem;
     }
 
     .football-btn {
-        top: 782rem;
+        top: 596rem;
         width: 305rem;
         height: 90rem;
     }
