@@ -399,14 +399,23 @@ footer {
         height: 955rem;
     }
 
+    .football-action {
+        order: -1;
+    }
+
+    .ag-action {
+        background: url(../img/ag-mob.jpg) center no-repeat;
+        background-size: cover;
+    }
+
     .action-announce {
         top: 890rem;
         max-width: 748rem;
     }
 
     .ag-btn {
-        top: 800rem;
-        right: -425rem;
+        top: 212rem;
+        right: 0;
         width: 267rem;
         height: 67rem;
     }
